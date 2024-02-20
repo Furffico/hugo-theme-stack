@@ -28,6 +28,12 @@
                     <img src="{{ $image.permalink }}" loading="lazy" alt="Featured image of post {{ .Title }}" />
                 {{ end }}
             </a>
+            
+            {{ if .Params.image_copyright }}
+                <div class="image-copyright">
+                    <span>{{ .Params.image_copyright | markdownify }}</span>
+                </div>
+            {{ end }}
         </div>
     {{ end }}
 

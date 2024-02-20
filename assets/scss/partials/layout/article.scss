@@ -21,6 +21,29 @@
                     max-height: 50vh;
                     object-fit: cover;
                 }
+
+                .image-copyright{
+                    margin: -4.3rem 0 1.3rem;
+                    padding: 0 1rem;
+                    color: var(--card-text-color-tertiary);
+                    text-transform: uppercase;
+                    display: flex;
+                    align-items: center;
+                    font-size: 1.4rem;
+                    height: 3rem;
+                    width: 100%;
+                    gap: 15px;
+                    justify-content: end;
+
+                    span {
+                        padding: .8rem;
+                        background-color: color-mix(in srgb, var(--card-background) 80%, transparent);
+                        a {
+                            color: var(--body-text-color);
+                        }
+                    }
+
+                }
             }
 
             .article-details {

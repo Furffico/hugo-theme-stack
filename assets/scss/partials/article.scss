@@ -32,6 +32,10 @@
                     height: 250px;
                 }
             }
+
+            .image-copyright{
+                display: none;
+            }
         }
 
         @for $i from 1 through length($defaultTagBackgrounds) {
