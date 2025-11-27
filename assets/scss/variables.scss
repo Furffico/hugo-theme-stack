@@ -117,8 +117,8 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --pre-background-color: #272822;
     --pre-text-color: #f8f8f2;
 
-    --code-background-color: rgba(0, 0, 0, 0.12);
-    --code-text-color: #808080;
+    --code-background-color: #f9f9f9;
+    --code-text-color: #2ea44f;
 
     --table-border-color: #dadada;
     --tr-even-background-color: #efefee;
@@ -126,8 +126,8 @@ $defaultTagColors: #fff, #fff, #fff, #fff, #fff;
     --kbd-border-color: #dadada;
 
     &[data-scheme="dark"] {
-        --code-background-color: #272822;
-        --code-text-color: rgba(255, 255, 255, 0.9);
+        --code-background-color: #383838;
+        --code-text-color: #4cd964;
 
         --table-border-color: #717171;
         --tr-even-background-color: #545454;
